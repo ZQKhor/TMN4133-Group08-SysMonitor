@@ -20,23 +20,30 @@ This project was developed as a group assignment for the TMN4133 System Programm
 
 # Compilation<br>
 The following commnd use to compile the program:<br>
-<div align="center"> gcc sysmonitor.c -o sysmonitor</div> <br>
+**<div align="center"> gcc sysmonitor.c -o sysmonitor</div> <br>**
 
 # Execution
 Use the following command to compile the program:<br>
-<div align="center"> ./sysmonitor</div> <br>
+**<div align="center"> ./sysmonitor</div> <br>**
+
+# Menu Mode<br>
+|Scenario | Description|
+|----------|----------|
+|'./sysmonitor>Option 1: CPU Usage'| Display CPU %|
+|'./sysmonitor>Option 2: Memory Usage'| Display Memory Usage|
+|'./sysmonitor>Option 3: Top 5 Processes'| Display Top 5 processes|
+|'./sysmonitor>Option 4: Continuous Monitor'| Display a continuous monitor on processes|
+|'./sysmonitor>Option 5: Exit'| Exiting the terminal|<br>
+
 
 # Command_Line Mode<br>
 | Command | Description|
 |----------|-----------|
-|'./sysmonitor > CPU | Display CPU %|
-|'./sysmonitor > Memory| Display Memory Usage|
-|'./sysmonitor > Top 5 processes'| Display Top 5 active processes|
-|'./sysmonitor > Continuous monitor'| Display continuous monitor on processes|
 |'./sysmonitor -m proc'| Display top 5 processes usage|
 |'./sysmonitor -m cpu'| List the CPU %|
 |'./sysmonitor -m mem'| List the memory usage|
 |'./sysmonitor -c 2'| Continuous monitoring every 2 second|<br>
+
 # Logging <br>
 - All monitoring output are saved to syslog.txt.
 - **cat syslog.txt** to list the system log.
