@@ -36,7 +36,7 @@ Use the following command to compile the program:<br>
 |'./sysmonitor -m proc'| Display top 5 processes usage|
 |'./sysmonitor -m cpu'| List the CPU %|
 |'./sysmonitor -m mem'| List the memory usage|
-|'./sysmonitor -c 5'| Continuous monitoring every 5 second|<br>
+|'./sysmonitor -c 2'| Continuous monitoring every 2 second|<br>
 # Logging <br>
 - All monitoring output are saved to syslog.txt.
 - **cat syslog.txt** to list the system log.
